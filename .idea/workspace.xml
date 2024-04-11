@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c56b50-3538-4900-ba91-09ca2276764b" name="Changes" comment="create project with allure and jenkins (practice)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="59c56b50-3538-4900-ba91-09ca2276764b" name="Changes" comment="add allure in gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712755744542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add allure in gitignore">
+      <created>1712755815481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712755815481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project with allure and jenkins (practice)" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project with allure and jenkins (practice)" />
+    <MESSAGE value="add allure in gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure in gitignore" />
   </component>
 </project>
