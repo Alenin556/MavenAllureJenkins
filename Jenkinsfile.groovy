@@ -60,7 +60,7 @@ def getProject(String repo, String branch) {
     ]
 }
 
-def getAllureReport(String repo, String branch) {
+def getAllureReport() {
     allure([
             includePropeties: true,
             jdk: '',
