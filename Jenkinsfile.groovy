@@ -13,7 +13,7 @@ node {
                     getProject("$base_git_url", "$branch_cutted")
                 } catch (err) {
                     echo "Failed get Branch $branch_cutted"
-                    throw ("$err")
+                    throw ("$err") as Throwable
                 }
             } else {
                 echo "Current branch master"
