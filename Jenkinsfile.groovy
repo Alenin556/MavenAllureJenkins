@@ -2,7 +2,13 @@
 
 node {
     stage('Build') {
-        echo 'Build'
+        echo 'Build started'
+        step {
+            git url : "https://github.com/Alenin556/MavenAllureJenkins.git"
+            branch: 'master'
+
+            sh "mvn -Dtest=rest.** verify"
+        }
     }
     stage('Test') {
         echo 'Tests'
