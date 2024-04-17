@@ -1,7 +1,13 @@
 #!groovy
 
-node { // node/agent
-    stage('Stage 1') {
-        echo 'Hello World' // echo Hello World
+node {
+    stage('Build') {
+        echo 'Build'
+    }
+    stage('Test') {
+        echo 'Tests'
+    }
+    stage('Allure') {
+        echo 'Allure Report'
     }
 }
