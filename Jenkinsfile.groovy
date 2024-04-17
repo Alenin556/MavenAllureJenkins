@@ -7,7 +7,7 @@ node {
             git url : "https://github.com/Alenin556/MavenAllureJenkins.git"
             branch: 'master'
 
-            sh "mvn -Dtest=rest.** verify"
+            sh "mvn verify"
         }
     }
     stage('Test') {
