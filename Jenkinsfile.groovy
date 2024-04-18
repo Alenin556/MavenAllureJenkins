@@ -7,6 +7,8 @@ pipeline {
     }
 
     parameters {
+        // добавляем чекбоксы к запуску с параметрами
+        // по дефолту будет запущена сборка со смоук тестами
         booleanParam(defaultValue: true, description: "run smoke tests", name: 'smoke')
         booleanParam(defaultValue: false, description: "run regress tests", name: 'regress')
     }
@@ -14,12 +16,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Забираем репо из гитхаб
+                // Забираем репо c гитхаб
                 git branch: 'master', credentialsId: 'jenkins', url: 'https://github.com/Alenin556/MavenAllureJenkins.git'
             }
         }
         stage('Smoke tests') {
             when {
+                //если установлен чекбокс в параметрах запуска то будет запущен скрипт
                 expression { return params.smoke}
             }
             steps {
@@ -32,14 +35,15 @@ pipeline {
                 expression { return params.regress}
             }
             steps {
-                // Выполняем команду mvn тест
                 bat "mvn -Dgroups=regress verify test"
             }
         }
     }
 
     post {
+        // триггер always генерирует отчет всегда при любых обстоятельствах и ошибках на раних стадиях
         always {
+            // базовые настройки для генерации отчета (тригер и путь до результатов)
             allure ([
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'target/allure-results']]
