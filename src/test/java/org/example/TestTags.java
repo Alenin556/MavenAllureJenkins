@@ -12,8 +12,8 @@ public class TestTags {
     }
 
     @Test
-    @Tag("regres")
+    @Tag("regress")
     public void regresTest() {
-        System.out.println("Regres");
+        System.out.println("Regress");
     }
 }
