@@ -1,7 +1,7 @@
 package org.example;
 
-import io.qameta.allure.junit4.Tag;
-import org.junit.Test;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 
 public class TestTags {
 
