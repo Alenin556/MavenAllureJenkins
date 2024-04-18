@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59c56b50-3538-4900-ba91-09ca2276764b" name="Changes" comment="edit pom">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestTags.java" afterDir="false" />
-    </list>
+    <list default="true" id="59c56b50-3538-4900-ba91-09ca2276764b" name="Changes" comment="edit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713423904428</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="edit">
+      <created>1713429992834</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713429992834</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +297,7 @@
     <MESSAGE value="delete groovy" />
     <MESSAGE value="b" />
     <MESSAGE value="edit pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit pom" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>
