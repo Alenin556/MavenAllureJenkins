@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Smoke tests') {
             when {
-                expression { return params.rest}
+                expression { return params.smoke}
             }
             steps {
                 // Выполняем команду mvn тест
@@ -29,7 +29,7 @@ pipeline {
         }
         stage('Regress tests') {
             when {
-                expression { return params.rest}
+                expression { return params.regress}
             }
             steps {
                 // Выполняем команду mvn тест
